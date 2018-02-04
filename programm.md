@@ -26,12 +26,12 @@ layout: default
 
 <div class="program">
 <h2>08:30 - 09:15
-<p>Check-In / Kaffee, Getränke und kleine Snacks im 15. Stock</p>
+<p>Check-In / Kaffee, Getränke und kleine Snacks im Erdgeschoß, Saal E09</p>
 </h2>
 
 <h2>09:15 - 9:45 Keynote</h2>
 
-To be announced soon ...
+Inhalt wird bald bekannt gegeben ...
 
 <div class="card-deck">
 {% assign slotPages = (sortedPages | where: "slot", "S0900") %}
@@ -52,7 +52,7 @@ To be announced soon ...
 
 <h2>09:55 bis 10:45</h2>
 
-To be announced soon ...
+Sessions werden bald bekannt gegeben ...
 
 <div class="card-deck">
 {% assign slotPages = (sortedPages | where: "slot", "S1000") %}
@@ -73,7 +73,7 @@ To be announced soon ...
 
 <h2>11:10 - 12:00</h2>
 
-To be announced soon ...
+Sessions werden bald bekannt gegeben ...
 
 <div class="card-deck">
 {% assign slotPages = (sortedPages | where: "slot", "S1100") %}
@@ -94,7 +94,7 @@ To be announced soon ...
 
 <h2>13:00 - 13:50</h2>
 
-To be announced soon ...
+Sessions werden bald bekannt gegeben ...
 
 <div class="card-deck">
 {% assign slotPages = (sortedPages | where: "slot", "S1300") %}
@@ -115,7 +115,7 @@ To be announced soon ...
 
 <h2>14:00 - 14:50</h2>
 
-To be announced soon ...
+Sessions werden bald bekannt gegeben ...
 
 <div class="card-deck">
 {% assign slotPages = (sortedPages | where: "slot", "S1400") %}
@@ -136,7 +136,7 @@ To be announced soon ...
 
 <h2>15:10 - 16:00</h2>
 
-To be announced soon ...
+Sessions werden bald bekannt gegeben ...
 
 <div class="card-deck">
 {% assign slotPages = (sortedPages | where: "slot", "S1500") %}
@@ -155,9 +155,8 @@ To be announced soon ...
 <p>Pause</p>
 </h2>
 
-<h2>16:05 - 16:15 Abschluss des GAB 2018</h2>
-
-To be announced soon ...
+<h2>16:05 - 16:15 
+<p>Abschluss des GAB 2018, Erdgeschoß, Saal E09</p></h2>
 
 <div class="card-deck">
 {% assign slotPages = (sortedPages | where: "slot", "S1600") %}

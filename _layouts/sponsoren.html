@@ -6,7 +6,9 @@ layout: default
 	{% if page.page-category == "sponsor" %}
         <h1>{{ page.title }}</h1>
 
-        <img class="rounded float-right" src="{{ site.baseurl }}/assets/{{ page.image }}" alt="{{ page.title}} Logo" />
+		{% if page.image != null %}
+		<img class="rounded float-right" src="{{ site.baseurl }}/assets/{{ page.image }}" alt="{{ page.title}} Logo" />
+		{% endif %}
 
 	    {{ page.content | markdownify }}
 	{% endif %}
