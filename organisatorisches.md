@@ -6,9 +6,20 @@ layout: default
 
 ## Anmeldung
 
-**Eine Anmeldung zur Veranstaltung ist unbedingt notwendig**.
+Auch wenn die Veranstaltung kostenlos ist, ist eine Anmeldung notwendig. Wir haben nur eine begrenzte Anzahl an Plätzen zur Verfügung. Außerdem versorgen uns unsere [Sponsoren]({{ site.baseurl }}/sponsoren.html) den ganzen Tag über mit Essen, Getränken und kleinen Giveaways - auch dafür müssen wir wissen, wieviele Teilnehmer kommen.
 
-[Zur Anmeldung...](https://www.eventbrite.de/e/global-azure-bootcamp-austria-2018-tickets-41621435835)
+<p class="text-center">
+    <a class="btn btn-primary btn-lg" href="https://www.eventbrite.de/e/global-azure-bootcamp-austria-2018-tickets-41621435835"
+        role="button">
+        Zur Anmeldung
+    </a>
+</p>
+
+## Abmeldung
+
+Falls du doch nicht kommen kannst, storniere bitte dein Ticket bei Eventbrite oder schicke uns eine Mail an [info@coderdojo-linz.org](mailto:info@coderdojo-linz.org), auch wenn es schon kurz vor der Veranstaltung ist, damit wir dein Platz noch an einen anderen Interessenten weitergeben können. 
+
+Die Warteliste war in den letzten Jahren lange und trotzdem hatten wir bei der Veranstaltung immer noch einige freie Plätze. Natürlich kann immer etwas Unvorhersehbares dazwischen kommen, aber falls möglich lass uns bitte wissen, wenn du nicht kommen kannst.
 
 ## Veranstaltungsort: Wissensturm Linz
 
@@ -20,11 +31,11 @@ Adresse: Kärntnerstraße 26, A-4020 Linz
 
 Da sich der Wissensturm direkt neben dem Linzer Hauptbahnhof befindet, empfehlen wir die Anreise mit öffentlichen Verkehrsmitteln.
 
+Der Start der Veranstaltung um 09:15 ist diesmal so gewählte, dass es sowohl aus Wien als auch aus Richtung Salzburg Zugverbindungen gibt, die um ca. 09:00 Uhr in Linz ankommen. Für alle, die auch noch was vom Frühstück abbekommen wollen, gibt es natürlich auch frühere Zugverbindungen. Der Check-In startet um 08:15 und da gibt es auch gleich Kaffee, Getränke und kleine Snacks.
+
 [Mehr über Anreise und Parken...](http://www.linz.at/wissensturm/anreise.asp)<br/>
 
 ## Verpflegung
 
-**Reguläres GAB**: Dank unserer [Sponsoren]({{ site.baseurl }}/sponsoren.html) können wir in den Pausen am Vormittag und Nachmittag Snacks und Getränke anbieten. Auch für ein warmes Mittagessen ist gesorgt.
-
-**Junior Bootcamp**: Das Junior Bootcamp dauert von 9:00-12:00 Uhr. Dank unseres Sponsors [PASS Austria](http://austria.pass.org/) gibt es in den Pausen Getränke und Snacks.
+Dank unserer [Sponsoren]({{ site.baseurl }}/sponsoren.html) können wir in den Pausen am Vormittag und Nachmittag Snacks und Getränke anbieten. Auch für ein warmes Mittagessen ist gesorgt.
 
