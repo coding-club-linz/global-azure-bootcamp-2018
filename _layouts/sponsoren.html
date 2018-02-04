@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+{% for page in site.pages %}
+	{% if page.page-category == "sponsor" %}
+        <h1>{{ page.title }}</h1>
+
+        <img class="rounded float-right" src="{{ site.baseurl }}/assets/{{ page.image }}" alt="{{ page.title}} Logo" />
+
+	    {{ page.content | markdownify }}
+	{% endif %}
+{% endfor %}

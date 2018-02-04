@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="{% if page.excerpt %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+    <title>{% if page.title %}Global Azure Bootcamp 2018 | {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+    <base href="/">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="{{ site.baseurl }}/assets/2017-logo-icon-192x192.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Global Azure Bootcamp Austria 2018">
+    <link rel="apple-touch-icon-precomposed" href="{{ site.baseurl }}/assets/2017-logo-icon-300x300.png">
+
+    <link rel="shortcut icon" href="{{ site.baseurl }}/assets/2017-logo-icon-150x150.png">
+    <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/assets/2017-logo-icon-150x150.png" sizes="32x32" />
+    <link rel="icon" href="{{ site.baseurl }}/assets/2017-logo-icon-192x192.png" sizes="192x192" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/styles/gab.css" />
+</head>
+
+<body>
+    {% include main-menu.html %}
+
+    {% if page.showJumbotron %}
+    {% include jumbotron.html %}
+    {% endif %}
+    {% if page.showJuniorJumbotron %}
+    {% include junior-jumbotron.html %}
+    {% endif %}
+
+    <div class="container">
+        {{ content }}
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <a href="{{ site.baseurl }}/impressum.html">Impressum</a>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+    <script>
+        $(".container a[href^='http://']").attr("target","_blank");
+        $(".container a[href^='https://']").attr("target","_blank");
+    </script>
+</body>
+
+</html>
