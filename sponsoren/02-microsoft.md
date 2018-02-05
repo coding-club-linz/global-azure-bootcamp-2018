@@ -6,7 +6,7 @@ image: logo-microsoft.jpg
 
 **Microsoft Österreich GmbH**<br/>
 Am Euro Platz 3, 1120 Wien<br/>
-[https://www.microsoft.com/de-at](https://www.microsoft.com/de-at)
+[www.microsoft.com/de-at](https://www.microsoft.com/de-at)
 
 Seit seiner Gründung 1991 hat sich Microsoft Österreich vom Kleinstbetrieb mit drei Mitarbeitern zu einem Mittelbetrieb mit heute rund 340 Mitarbeitern entwickelt. Seit 1991 ist Microsoft mit einer eigenen Niederlassung in Wien vertreten.
 
