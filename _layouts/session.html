@@ -2,13 +2,26 @@
 layout: default 
 ---
 
-<h1>{{ page.title }}</h1>
-
-<div class="lead">
+<!-- <div class="lead">
 	<a href="{{ site.baseurl }}/vortragende/{{ page.speaker-id }}.html">{{ page.speaker }}</a><br/>
 	Raum: {{ page.room }}
-</div>
+</div> -->
 
-<h2>Sessionbeschreibung</h2>
+<h1>{{ page.title }}</h1>
 
-{{ content | markdownify }}
+{% if page.image != null %}
+<img class="rounded float-right" src="{{ site.baseurl }}/assets/{{ page.image }}" alt="{{ page.title}} Logo" />
+{% endif %}
+
+{{ page.content | markdownify }}
+
+<ul>
+	{% assign speakers = page.speaker-id | split: ' ' %}
+	{% for speaker in speakers %}
+		{% for speakerpage in site.pages %}
+			{% if speakerpage.page-category == "speaker" and speakerpage.url contains speaker %}
+				<li><a href="{{ site.baseurl }}/{{ speakerpage.url }}">{{ speakerpage.title }}</a></li>
+			{% endif %}
+		{% endfor %}
+	{% endfor %}
+</ul>
