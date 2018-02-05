@@ -6,6 +6,6 @@ image:
 
 **SpectoLogic e.U.**<br/>
 Grillparzerstrasse 32, A-2380 Perchtoldsdorf<br/>
-[spectologic.com](http://spectologic.com/)
+[www.spectologic.com](http://www.spectologic.com/)
 
 Details folgen ...
