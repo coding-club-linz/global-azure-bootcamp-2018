@@ -1,6 +1,6 @@
 ---
 layout: session
-page-category: session
+page-category: junior-session
 title: 3D-Druck - Der Weg von der Idee zum fertigen Bauteil
 speaker: Philipp Pendelin, Hannes Peham
 speaker-id: philipp-pendelin hannes-peham

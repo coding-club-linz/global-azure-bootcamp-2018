@@ -1,6 +1,6 @@
 ---
 layout: session
-page-category: session
+page-category: junior-session
 title: Robotics 101 - Eine Einführung
 speaker: Peter Bauer 
 speaker-id: peter-bauer

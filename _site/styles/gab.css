@@ -75,13 +75,15 @@ h1 {
     margin-top: 25px;
     margin-bottom: 15px;
     text-transform: uppercase;
-    font-size: 26px;
+    font-size: 22px;
+    font-weight: normal;
 }
 
 h1 .speaker-company {
     margin-top: 10px;
-    font-size: 18px;
-    font-weight: normal;
+    font-size: 14px;
+    font-weight: bolder;
+    text-transform: none;
 }
 
 h1:first-of-type {
@@ -100,12 +102,51 @@ h1.speaker-title:not(:first-of-type) {
 h2 {
     margin-top: 30px;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 img.speaker {
     max-width: 100%;
     border-radius: 50%;
+}
+
+.program {
+    font-size: 13px;
+}
+
+.program div.break > div, .program div.sessions > div {
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.program div.break > div {
+    background-color: #e0e0e0;
+}
+
+.program div.sessions > div:nth-child(5n+1) {
+    background-color: #e0e0e0;
+}
+
+.program div.sessions > div:nth-child(5n+2) {
+    background-color: #81D4FA;
+}
+
+.program div.sessions > div:nth-child(5n+3) {
+    background-color: #C5E1A5;
+}
+
+.program div.sessions > div:nth-child(5n+4) {
+    background-color: #EF9A9A;
+}
+
+.program div.sessions > div:nth-child(5n+0) {
+    background-color: #CE93D8;    
+}
+
+.program div.sessions > div.not-yet-defined {
+    background-color: #FFE082;
 }
 
 .program h2 {
@@ -119,6 +160,11 @@ img.speaker {
     margin-top: 5px;
     margin-bottom: 5px;
     font-weight: normal;
+}
+
+.program h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
 }
 
 .card-deck {
@@ -135,6 +181,17 @@ img.speaker {
 
 .junior-session {
     font-size: 0.8rem;
+}
+
+h1 .badge-pill {
+    font-size: 14px;
+    font-weight: normal;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.badge-primary {
+    background-color: #0094ff;
 }
 
 .card:hover {

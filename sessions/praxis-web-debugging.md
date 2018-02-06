@@ -1,6 +1,6 @@
 ---
 layout: session
-page-category: session
+page-category: junior-session
 title: Praxis Web-Debugging
 speaker: Andreas Pollak
 speaker-id: andreas-pollak

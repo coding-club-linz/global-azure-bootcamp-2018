@@ -6,7 +6,8 @@ image: logo-hatahet.png
 
 **HATAHET productivity solutions GmbH**<br/>
 Bartensteingasse 16/7, A-1010 Wien<br/>
-[www.hatahet.eu](http://www.hatahet.eu/)
+[www.hatahet.eu](http://www.hatahet.eu/)<br/>
+[www.sharepoint.at](http://www.sharepoint.at/)
 
 Wir sind ein renommiertes IT-Beratungsunternehmen mit dem Fokus, das Wachstum Ihres Unternehmens durch den Einsatz von Digitalen Arbeitsplatz-Lösungen zur Produktivitätssteigerung zu unterstützen. 
 
@@ -17,7 +18,3 @@ Für die Realisierung setzen wir auf etablierte Technologien von Microsoft (u.a.
 Unsere langjährige Erfahrung spiegelt sich auch in unseren eigens entwickelten Lösungen und Produkten für SharePoint und Office 365 wider: den HATAHET Must-Haves for SharePoint & Office 365. Mit deren Möglichkeiten erweitern wir die Funktionalitäten von SharePoint und Office 365 und können Sie so dabei unterstützen, Ihre Produktivitätslösungen noch schneller und kosteneffektiver einzusetzen. Individuelle Entwicklungen vervollständigen unser Angebot.
 
 Der Name HATAHET steht als Marke für zielgerichtete und strategische Beratung sowie punktgenaue Umsetzung im Bereich von Microsoft-, Nintex- und dox42-basierenden Produktivitätslösungen. Ganz nach dem Unternehmens-Motto: We make digital workplace dreams come true!
-
-[www.hatahet.eu](http://www.hatahet.eu/)<br/>
-[www.sharepoint.at](http://www.sharepoint.at/)
-

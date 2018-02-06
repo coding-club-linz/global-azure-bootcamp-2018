@@ -22,7 +22,7 @@ layout: default
 				<p>
 					<ul>
 						{% for sessionpage in site.pages %}
-							{% if sessionpage.page-category == "session" and sessionpage.speaker contains page.title %}
+							{% if sessionpage.speaker contains page.title and (sessionpage.page-category == "session" or sessionpage.page-category == "junior-session") %}
 								<li><a href="{{ site.baseurl }}/{{ sessionpage.url }}">{{ sessionpage.title }}</a></li>
 							{% endif %}
 						{% endfor %}
