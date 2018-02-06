@@ -23,7 +23,7 @@ layout: default
             {% for speaker in speakers %}
                 {% for speakerpage in site.pages %}
                     {% if speakerpage.page-category == "speaker" and speakerpage.url contains speaker %}
-                        <li><a href="{{ site.baseurl }}/{{ speakerpage.url }}">{{ speakerpage.title }}</a></li>
+                        <li><a href="{{ site.baseurl }}{{ speakerpage.url }}">{{ speakerpage.title }}</a></li>
                     {% endif %}
                 {% endfor %}
             {% endfor %}
