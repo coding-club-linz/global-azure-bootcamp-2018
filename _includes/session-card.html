@@ -1,0 +1,24 @@
+{% for sessionpage in site.pages %}
+    {% if sessionpage.url contains include.session and (sessionpage.page-category == "session" or sessionpage.page-category == "junior-session") %}
+        <div onclick="location.href='{{ site.baseurl }}{{ sessionpage.url }}'">
+            <h3>{{ sessionpage.title }}
+                {% if sessionpage.page-category == "junior-session" %}
+                <br/><span class="badge badge-pill badge-success">Junior Bootcamp</span>
+                {% else %}
+                <br/><span class="badge badge-pill badge-primary">Azure Bootcamp</span>
+                {% endif %}
+            </h3>
+            <p>{{ sessionpage.content | striphtml | truncatewords:50 }}</p>
+            <p>
+                {% assign speakers = sessionpage.speaker-id | split: ' ' %}
+                {% for speaker in speakers %}
+                    {% for speakerpage in site.pages %}
+                        {% if speakerpage.page-category == "speaker" and speakerpage.url contains speaker %}
+                            <a href="{{ site.baseurl }}{{ speakerpage.url }}">{{ speakerpage.title }}</a>&nbsp;
+                        {% endif %}
+                    {% endfor %}
+                {% endfor %}
+            </p>
+        </div>
+    {% endif %}
+{% endfor %}

@@ -2,35 +2,15 @@
 layout: default
 ---
 
-{% assign pages = (site.pages | sort: "page-category" | reverse | where_exp: "page", "page.page-category contains 'session'")  %}
-{% assign pages1 = (pages | where: "room", "15.04") %}
-{% assign pages2 = (pages | where: "room", "15.05") %}
-{% assign pages3 = (pages | where: "room", "15.06") %}
-{% assign pages4 = (pages | where: "room", "10.02") %}
-{% assign pages5 = (pages | where: "room", "10.07") %}
-{% assign sortedPages = pages1 %}
-{% for page in pages2 %}
-  {% assign sortedPages = sortedPages | push: page %}
-{% endfor %}
-{% for page in pages3 %}
-  {% assign sortedPages = sortedPages | push: page %}
-{% endfor %}
-{% for page in pages4 %}
-  {% assign sortedPages = sortedPages | push: page %}
-{% endfor %}
-{% for page in pages5 %}
-  {% assign sortedPages = sortedPages | push: page %}
-{% endfor %}
-
 # Programm
 
 <div class="container program">
 <div class="row sessions">
         <div class="col-md-1 d-none d-md-block">Raum</div>
         <div class="col-md-3 d-none d-md-block">E09</div>
-        <div class="col-md-3 d-none d-md-block">15.04</div>
-        <div class="col-md-3 d-none d-md-block">15.08</div>
         <div class="col-md-2 d-none d-md-block">10.07</div>
+        <div class="col-md-3 d-none d-md-block">15.04</div>
+        <div class="col-md-3 d-none d-md-block">15.05</div>
 </div>
 <div class="row break">
         <div class="col-md-1">08:30</div>
@@ -46,47 +26,62 @@ layout: default
 </div>
 <div class="row sessions">
         <div class="col-md-1">09:55</div>
-        <div class="col-md-11 not-yet-defined"><p>Der genaue Zeitplan steht noch nicht fest. Unter <a href="{{ site.baseurl }}/sessions.html">Sessions</a> findest du bereits eine erste Auswahl an Themen.</p></div>
+        <div class="col-md-3 not-yet-defined"><p>Der genaue Zeitplan steht noch nicht fest. Unter <a href="{{ site.baseurl }}/sessions.html">Sessions</a> findest du bereits eine erste Auswahl an Themen.</p></div>
+        <div class="col-md-2 not-yet-defined"></div>
+        <div class="col-md-3 not-yet-defined"></div>
+        <div class="col-md-3">{% include session-card.html session='3d-druck' %}</div>
 </div>
 <div class="row break">
         <div class="col-md-1">10:45</div>
         <div class="col-md-3">Kaffee, Getränke und kleine Snacks</div>
-        <div class="col-md-6 d-none d-md-block">Kaffee, Getränke und kleine Snacks</div>
         <div class="col-md-2 d-none d-md-block"></div>
+        <div class="col-md-6 d-none d-md-block">Kaffee, Getränke und kleine Snacks</div>
 </div>
 <div class="row sessions">
         <div class="col-md-1">11:10</div>
-        <div class="col-md-11 not-yet-defined"><p>Der genaue Zeitplan steht noch nicht fest. Unter <a href="{{ site.baseurl }}/sessions.html">Sessions</a> findest du bereits eine erste Auswahl an Themen.</p></div>
+        <div class="col-md-3 not-yet-defined"><p>Der genaue Zeitplan steht noch nicht fest. Unter <a href="{{ site.baseurl }}/sessions.html">Sessions</a> findest du bereits eine erste Auswahl an Themen.</p></div>
+        <div class="col-md-2 not-yet-defined"></div>
+        <div class="col-md-3 not-yet-defined"></div>
+        <div class="col-md-3">{% include session-card.html session='robotics-101-eine-einfuehrung' %}</div>
 </div>
 <div class="row break">
         <div class="col-md-1">12:00</div>
         <div class="col-md-3 d-none d-md-block"></div>
-        <div class="col-md-6">Warmes Mittagessen</div>
         <div class="col-md-2 d-none d-md-block"></div>
+        <div class="col-md-6">Warmes Mittagessen</div>
 </div>
 <div class="row sessions">
         <div class="col-md-1">13:00</div>
-        <div class="col-md-11 not-yet-defined"><p>Der genaue Zeitplan steht noch nicht fest. Unter <a href="{{ site.baseurl }}/sessions.html">Sessions</a> findest du bereits eine erste Auswahl an Themen.</p></div>
+        <div class="col-md-3 not-yet-defined"><p>Der genaue Zeitplan steht noch nicht fest. Unter <a href="{{ site.baseurl }}/sessions.html">Sessions</a> findest du bereits eine erste Auswahl an Themen.</p></div>
+        <div class="col-md-2 not-yet-defined"></div>
+        <div class="col-md-3 not-yet-defined"></div>
+        <div class="col-md-3">{% include session-card.html session='was-ist-eine-datenbank' %}</div>
 </div>
 <div class="row break">
         <div class="col-md-1">13:50</div>
         <div class="col-md-3">Kaffee, Getränke und Kuchen</div>
-        <div class="col-md-6 d-none d-md-block">Kaffee, Getränke und Kuchen</div>
         <div class="col-md-2 d-none d-md-block"></div>
+        <div class="col-md-6 d-none d-md-block">Kaffee, Getränke und Kuchen</div>
 </div>
 <div class="row sessions">
         <div class="col-md-1">14:05</div>
-        <div class="col-md-11 not-yet-defined"><p>Der genaue Zeitplan steht noch nicht fest. Unter <a href="{{ site.baseurl }}/sessions.html">Sessions</a> findest du bereits eine erste Auswahl an Themen.</p></div>
+        <div class="col-md-3 not-yet-defined"><p>Der genaue Zeitplan steht noch nicht fest. Unter <a href="{{ site.baseurl }}/sessions.html">Sessions</a> findest du bereits eine erste Auswahl an Themen.</p></div>
+        <div class="col-md-2 not-yet-defined"></div>
+        <div class="col-md-3 not-yet-defined"></div>
+        <div class="col-md-3">{% include session-card.html session='praxis-web-debugging' %}</div>
 </div>
 <div class="row break">
         <div class="col-md-1">14:55</div>
         <div class="col-md-3">Kaffee, Getränke und Kuchen</div>
-        <div class="col-md-6 d-none d-md-block">Kaffee, Getränke und Kuchen</div>
         <div class="col-md-2 d-none d-md-block"></div>
+        <div class="col-md-6 d-none d-md-block">Kaffee, Getränke und Kuchen</div>
 </div>
 <div class="row sessions">
         <div class="col-md-1">15:10</div>
-        <div class="col-md-11 not-yet-defined"><p>Der genaue Zeitplan steht noch nicht fest. Unter <a href="{{ site.baseurl }}/sessions.html">Sessions</a> findest du bereits eine erste Auswahl an Themen.</p></div>
+        <div class="col-md-3 not-yet-defined"><p>Der genaue Zeitplan steht noch nicht fest. Unter <a href="{{ site.baseurl }}/sessions.html">Sessions</a> findest du bereits eine erste Auswahl an Themen.</p></div>
+        <div class="col-md-2 not-yet-defined"></div>
+        <div class="col-md-3 not-yet-defined"></div>
+        <div class="col-md-3 not-yet-defined"></div>
 </div>
 <div class="row sessions">
         <div class="col-md-1">16:00</div>
@@ -95,150 +90,3 @@ layout: default
                 <p>Coding Club Linz</p>
         </div>
 </div>
-
-<!-- <h2>08:30 - 09:15
-<p>Check-In / Kaffee, Getränke und kleine Snacks im Erdgeschoß, Saal E09</p>
-</h2>
-
-<h2>09:15 - 9:45 Keynote</h2>
-
-Inhalt wird bald bekannt gegeben ...
-
-<div class="card-deck">
-{% assign slotPages = (sortedPages | where: "slot", "S0900") %}
-{% for page in slotPages %}
-        {% capture title %}{{ page.title }}{% endcapture %}
-        {% capture speaker %}{{ page.speaker }}{% endcapture %}
-        {% capture speaker-id %}{{ page.speaker-id }}{% endcapture %}
-        {% capture room %}{{ page.room }}{% endcapture %}
-        {% capture url %}{{ page.url }}{% endcapture %}
-        {% capture page-category %}{{ page.page-category }}{% endcapture %}
-        {% include card.html title=title speaker=speaker speaker-id=speaker-id room=room url=url page-category=page-category  %}
-{% endfor %}
-</div>
-
-<h2>09:45 - 09:55
-<p>Kaffee und Getränke im 15. Stock</p>
-</h2>
-
-<h2>09:55 bis 10:45</h2>
-
-Sessions werden bald bekannt gegeben ...
-
-<div class="card-deck">
-{% assign slotPages = (sortedPages | where: "slot", "S1000") %}
-{% for page in slotPages %}
-        {% capture title %}{{ page.title }}{% endcapture %}
-        {% capture speaker %}{{ page.speaker }}{% endcapture %}
-        {% capture speaker-id %}{{ page.speaker-id }}{% endcapture %}
-        {% capture room %}{{ page.room }}{% endcapture %}
-        {% capture url %}{{ page.url }}{% endcapture %}
-        {% capture page-category %}{{ page.page-category }}{% endcapture %}
-        {% include card.html title=title speaker=speaker speaker-id=speaker-id room=room url=url page-category=page-category  %}
-{% endfor %}
-</div>
-
-<h2>10:45 - 11:10
-<p>Kaffee und Getränke im 15. Stock</p>
-</h2>
-
-<h2>11:10 - 12:00</h2>
-
-Sessions werden bald bekannt gegeben ...
-
-<div class="card-deck">
-{% assign slotPages = (sortedPages | where: "slot", "S1100") %}
-{% for page in slotPages %}
-        {% capture title %}{{ page.title }}{% endcapture %}
-        {% capture speaker %}{{ page.speaker }}{% endcapture %}
-        {% capture speaker-id %}{{ page.speaker-id }}{% endcapture %}
-        {% capture room %}{{ page.room }}{% endcapture %}
-        {% capture url %}{{ page.url }}{% endcapture %}
-        {% capture page-category %}{{ page.page-category }}{% endcapture %}
-        {% include card.html title=title speaker=speaker speaker-id=speaker-id room=room url=url page-category=page-category  %}
-{% endfor %}
-</div>
-
-<h2>12:00 - 13:00 Mittagspause
-<p>Warmes Mittagessen im 15. Stock</p>
-</h2>
-
-<h2>13:00 - 13:50</h2>
-
-Sessions werden bald bekannt gegeben ...
-
-<div class="card-deck">
-{% assign slotPages = (sortedPages | where: "slot", "S1300") %}
-{% for page in slotPages %}
-        {% capture title %}{{ page.title }}{% endcapture %}
-        {% capture speaker %}{{ page.speaker }}{% endcapture %}
-        {% capture speaker-id %}{{ page.speaker-id }}{% endcapture %}
-        {% capture room %}{{ page.room }}{% endcapture %}
-        {% capture url %}{{ page.url }}{% endcapture %}
-        {% capture page-category %}{{ page.page-category }}{% endcapture %}
-        {% include card.html title=title speaker=speaker speaker-id=speaker-id room=room url=url page-category=page-category  %}
-{% endfor %}
-</div>
-
-<h2>13:50 - 14:00
-<p>Kaffee, Getränke und Kuchen im 15. Stock</p>
-</h2>
-
-<h2>14:00 - 14:50</h2>
-
-Sessions werden bald bekannt gegeben ...
-
-<div class="card-deck">
-{% assign slotPages = (sortedPages | where: "slot", "S1400") %}
-{% for page in slotPages %}
-        {% capture title %}{{ page.title }}{% endcapture %}
-        {% capture speaker %}{{ page.speaker }}{% endcapture %}
-        {% capture speaker-id %}{{ page.speaker-id }}{% endcapture %}
-        {% capture room %}{{ page.room }}{% endcapture %}
-        {% capture url %}{{ page.url }}{% endcapture %}
-        {% capture page-category %}{{ page.page-category }}{% endcapture %}
-        {% include card.html title=title speaker=speaker speaker-id=speaker-id room=room url=url page-category=page-category  %}
-{% endfor %}
-</div>
-
-<h2>14:50 - 15:10
-<p>Kaffee, Getränke und Kuchen im 15. Stock</p>
-</h2>
-
-<h2>15:10 - 16:00</h2>
-
-Sessions werden bald bekannt gegeben ...
-
-<div class="card-deck">
-{% assign slotPages = (sortedPages | where: "slot", "S1500") %}
-{% for page in slotPages %}
-        {% capture title %}{{ page.title }}{% endcapture %}
-        {% capture speaker %}{{ page.speaker }}{% endcapture %}
-        {% capture speaker-id %}{{ page.speaker-id }}{% endcapture %}
-        {% capture room %}{{ page.room }}{% endcapture %}
-        {% capture url %}{{ page.url }}{% endcapture %}
-        {% capture page-category %}{{ page.page-category }}{% endcapture %}
-        {% include card.html title=title speaker=speaker speaker-id=speaker-id room=room url=url page-category=page-category  %}
-{% endfor %}
-</div>
-
-<h2>16:00 - 16:05
-<p>Pause</p>
-</h2>
-
-<h2>16:05 - 16:15 
-<p>Abschluss des GAB 2018, Erdgeschoß, Saal E09</p></h2>
-
-<div class="card-deck">
-{% assign slotPages = (sortedPages | where: "slot", "S1600") %}
-{% for page in slotPages %}
-        {% capture title %}{{ page.title }}{% endcapture %}
-        {% capture speaker %}{{ page.speaker }}{% endcapture %}
-        {% capture speaker-id %}{{ page.speaker-id }}{% endcapture %}
-        {% capture room %}{{ page.room }}{% endcapture %}
-        {% capture url %}{{ page.url }}{% endcapture %}
-        {% capture page-category %}{{ page.page-category }}{% endcapture %}
-        {% include card.html title=title speaker=speaker speaker-id=speaker-id room=room url=url page-category=page-category  %}
-{% endfor %}
-</div>
-</div> -->
