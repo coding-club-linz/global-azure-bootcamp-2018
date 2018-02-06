@@ -5,7 +5,8 @@ image: logo-hatahet.png
 ---
 
 **HATAHET productivity solutions GmbH**<br/>
-Bartensteingasse 16/7, A-1010 Wien<br/>
+Bartensteingasse 16/7<br/>
+A-1010 Wien<br/>
 [www.hatahet.eu](http://www.hatahet.eu/)<br/>
 [www.sharepoint.at](http://www.sharepoint.at/)
 
