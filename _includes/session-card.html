@@ -15,11 +15,11 @@
                 {% for speaker in speakers %}
                     {% for speakerpage in site.pages %}
                         {% if speakerpage.page-category == "speaker" and speakerpage.url contains speaker %}
-                            <a href="{{ site.baseurl }}{{ speakerpage.url }}">{{ speakerpage.title }}</a>
+                            <a href="{{ site.baseurl }}{{ speakerpage.url }}">{{ speakerpage.title }}</a>&nbsp;
                         {% endif %}
                     {% endfor %}
                 {% endfor %}
-            </p>
+            </p>_
         </div>
     {% endif %}
 {% endfor %}
