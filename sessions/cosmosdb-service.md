@@ -4,8 +4,8 @@ page-category: session
 title: CosmosDB Service - One to rule them all
 speaker: Andreas Pollak
 speaker-id: andreas-pollak
-room: 
-slot: 
+room: '15.04'
+slot: 2
 ---
 
 CosmosDB is a global distributed, multi-model database service and it's Cosmos DB’s all-in-one-approach is challenging other Cloud Databases. By providing features like 99.999% read availabilty with global scale and native access via MongoDB-, Cassandra-, GremlinGraph-, DocDB- and Table API it accomodates a broad range of developers looking for a ready-to-use database service without rewriting their applications.

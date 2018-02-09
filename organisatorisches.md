@@ -35,6 +35,10 @@ Der Start der Veranstaltung um 09:15 ist diesmal so gewählte, dass es sowohl au
 
 [Mehr über Anreise und Parken...](http://www.linz.at/wissensturm/anreise.asp)<br/>
 
+## Check-In
+
+Der Check-In findest diesmal ab 08:30 im Erdgeschoß vor dem großen Veranstaltungssaal E09 statt. Im Saal E09 gibt es dann vor der Keynote auch noch ein kleines Frühstück.
+
 ## Verpflegung
 
 Dank unserer [Sponsoren]({{ site.baseurl }}/sponsoren.html) können wir in den Pausen am Vormittag und Nachmittag Snacks und Getränke anbieten. Auch für ein warmes Mittagessen ist gesorgt.

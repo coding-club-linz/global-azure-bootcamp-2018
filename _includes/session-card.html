@@ -1,5 +1,5 @@
 {% for sessionpage in site.pages %}
-    {% if sessionpage.url contains include.session and (sessionpage.page-category == "session" or sessionpage.page-category == "junior-session") %}
+    {% if sessionpage.slot == include.slot and sessionpage.room == include.room %}
         <div onclick="location.href='{{ site.baseurl }}{{ sessionpage.url }}'">
             <h3>{{ sessionpage.title }}
                 {% if sessionpage.page-category == "junior-session" %}
@@ -8,6 +8,7 @@
                 <br/><span class="badge badge-pill badge-primary">Azure Bootcamp</span>
                 {% endif %}
             </h3>
+            <p class="d-block d-md-none"><b>Raum {{ sessionpage.room }}</b></p>
             <p>{{ sessionpage.content | striphtml | truncatewords:50 }}</p>
             <p>
                 {% assign speakers = sessionpage.speaker-id | split: ' ' %}

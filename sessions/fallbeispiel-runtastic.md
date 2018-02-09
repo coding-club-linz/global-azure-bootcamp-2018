@@ -4,8 +4,8 @@ page-category: session
 title: Fallbeispiel Runtastic - Integration von R in die Microsoft Data Platform
 speaker: Markus Ehrenmüller-Jensen
 speaker-id: markus-ehrenmueller-jensen
-room: 
-slot: 
+room: '15.04'
+slot: 3
 ---
 
 Runtastic unterstützt Menschen weltweit ein längeres und gesünderes Leben zu haben. Unser Ansatz ist dabei datengetrieben. Daten zu sammeln ist heutzutage kein Problem -

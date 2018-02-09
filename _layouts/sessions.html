@@ -18,15 +18,16 @@ layout: default
 
         {{ page.content | markdownify }}
 
-        <ul>
-            {% assign speakers = page.speaker-id | split: ' ' %}
-            {% for speaker in speakers %}
-                {% for speakerpage in site.pages %}
-                    {% if speakerpage.page-category == "speaker" and speakerpage.url contains speaker %}
-                        <li><a href="{{ site.baseurl }}{{ speakerpage.url }}">{{ speakerpage.title }}</a></li>
-                    {% endif %}
-                {% endfor %}
+        {% assign speakers = page.speaker-id | split: ' ' %}
+        {% for speaker in speakers %}
+            {% for speakerpage in site.pages %}
+                {% if speakerpage.page-category == "speaker" and speakerpage.url contains speaker %}
+                <span class="session-speaker">
+                    <a href="{{ site.baseurl }}{{ speakerpage.url }}"><img class="session-speaker" src="{{ site.baseurl }}/assets/{{ speakerpage.image }}" alt="{{ speakerpage.title}} Logo" /></a>&nbsp;
+                    <a href="{{ site.baseurl }}{{ speakerpage.url }}">{{ speakerpage.title }}</a>
+                </span>
+                {% endif %}
             {% endfor %}
-        </ul>
+        {% endfor %}
 	{% endif %}
 {% endfor %}

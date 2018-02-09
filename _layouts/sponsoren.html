@@ -4,7 +4,7 @@ layout: default
 
 {% for page in site.pages %}
 	{% if page.page-category == "sponsor" %}
-        <h1>{{ page.title }}</h1>
+        <h1 class="speaker-title">{{ page.title }}</h1>
 
 		{% if page.image != null %}
 		<img class="rounded float-right" src="{{ site.baseurl }}/assets/{{ page.image }}" alt="{{ page.title}} Logo" />
