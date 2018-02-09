@@ -9,7 +9,7 @@
                 {% endif %}
             </h3>
             <p class="d-block d-md-none"><b>Raum {{ sessionpage.room }}</b></p>
-            <p>{{ sessionpage.content | striphtml | truncatewords:50 }}</p>
+            <p>{{ sessionpage.content | striphtml }}</p>
             <p>
                 {% assign speakers = sessionpage.speaker-id | split: ' ' %}
                 {% for speaker in speakers %}
