@@ -21,10 +21,7 @@ Der Zeitplan steht noch nicht fest. Die Zeiten der einzelnen Sessions können si
 </div>
 <div class="row sessions">
         <div class="col-md-1">09:15</div>
-        <div class="col-md-3">
-                <h3>Keynote</h3>
-                <p>Avanade</p>
-        </div>
+        <div class="col-md-3"><h3>KEYNOTE</h3>{% include session-card.html room='E09' slot=1 %}</div>
 </div>
 <div class="row sessions">
         <div class="col-md-1">09:55</div>
