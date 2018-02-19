@@ -199,6 +199,63 @@ img.session-speaker {
     margin-bottom: 10px;
 }
 
+.program-session-content {
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.expand-content {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    margin-top: -3rem;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.collapse-content {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    margin-top: -3rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.program div.sessions > div:nth-child(5n+2) .expand-content {
+    background-image: linear-gradient(to bottom, transparent, #B2EBF2 75%);
+}
+
+.program div.sessions > div:nth-child(5n+3) .expand-content {
+    background-image: linear-gradient(to bottom, transparent, #FFF59D 75%);
+}
+
+.program div.sessions > div:nth-child(5n+4) .expand-content {
+    background-image: linear-gradient(to bottom, transparent, #FFECB3 75%);  
+}
+
+.program div.sessions > div:nth-child(5n+0) .expand-content {
+    background-image: linear-gradient(to bottom, transparent, #E6EE9C 75%);
+}
+
+.collapse-content+.program-session-speakers {
+    margin-top: calc(30px - 1rem);
+}
+
+.expand-content a, .collapse-content a {
+    text-decoration: none;
+}
+
+.expand-content i, .collapse-content i { 
+    color: #000;
+    opacity: 0.7;
+    font-size: 16px;
+}
+
+.program-session-speakers {
+    margin-top: 30px;
+}
+
 .card-deck {
     margin-right: -30px;
 }
@@ -263,5 +320,9 @@ h1 .badge-pill {
         margin-right: 0!important;
         min-width: 100%;
         max-width: 100%;
+    }
+
+    .expand-content i, .collapse-content i { 
+        font-size: 24px;
     }
 }

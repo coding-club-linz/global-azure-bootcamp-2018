@@ -100,3 +100,21 @@ E09 | Ergeschoß | Im großen Veranstaltungssaal des Wissensturm starten wir die
 15.04 | 15. Stock | Azure Bootcamp Sessions
 15.05 | 15. Stock | Junior Bootcamp Sessions
 {: .table }
+
+<script>
+        $(function() {
+                $('.program-session-content').readmore({
+                        collapsedHeight: 150,
+                        moreLink: '<div class="expand-content" onclick="disabledEventPropagation(event)"><a><i class="fas fa-chevron-down"></i></a></div>',
+                        lessLink: '<div class="collapse-content" onclick="disabledEventPropagation(event)"><a><i class="fas fa-chevron-up"></i></a></div>'
+                });
+        });
+
+        function disabledEventPropagation(e) {
+                if (e.stopPropagation) {
+                        e.stopPropagation();
+                } else if (window.event) {
+                        window.event.cancelBubble = true;
+                }
+        }
+</script>
