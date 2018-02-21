@@ -37,7 +37,7 @@ Der Start der Veranstaltung um 09:15 ist diesmal so gewählte, dass es sowohl au
 
 ## Check-In
 
-Der Check-In findest diesmal ab 08:30 im Erdgeschoß vor dem großen Veranstaltungssaal E09 statt. Im Saal E09 gibt es dann vor der Keynote auch noch ein kleines Frühstück.
+Der Check-In findet diesmal ab 08:30 im Erdgeschoß vor dem großen Veranstaltungssaal E09 statt. Im Saal E09 gibt es dann vor der Keynote auch noch ein kleines Frühstück.
 
 ## Verpflegung
 
