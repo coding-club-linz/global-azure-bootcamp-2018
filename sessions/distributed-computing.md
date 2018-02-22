@@ -4,8 +4,8 @@ page-category: session
 title: Distributed Computing in Kreisel Energy Solutions
 speaker: Paul Latzelsperger, Jürgen Mayrbäurl
 speaker-id: paul-latzelsperger juergen-mayrbaeurl
-room: 
-slot: 
+room: '10.07'
+slot: 3
 ---
 
 Software becomes the driving business factor in almost all industries and currently most proprietary systems hold on for dear life. Our goal at Kreisel is to develop an open software ecosystem that interconnects hardware devices of arbitrary type and class through a cloud platform with an application layer by moving a portion of the code base towards the "edge". We do that so we can leverage two major benefits:
