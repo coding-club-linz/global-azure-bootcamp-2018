@@ -17,7 +17,7 @@ Auch wenn die Veranstaltung kostenlos ist, ist eine Anmeldung notwendig. Wir hab
 
 ## Abmeldung
 
-Falls du doch nicht kommen kannst, storniere bitte dein Ticket bei Eventbrite oder schicke uns eine Mail an [info@coderdojo-linz.org](mailto:info@coderdojo-linz.org), auch wenn es schon kurz vor der Veranstaltung ist, damit wir dein Platz noch an einen anderen Interessenten weitergeben können. 
+Falls du doch nicht kommen kannst, storniere bitte dein Ticket bei Eventbrite oder schicke uns eine Mail an [info@coderdojo-linz.org](mailto:info@coderdojo-linz.org), auch wenn es schon kurz vor der Veranstaltung ist, damit wir deinen Platz noch an einen anderen Interessenten weitergeben können. 
 
 Die Warteliste war in den letzten Jahren lange und trotzdem hatten wir bei der Veranstaltung immer noch einige freie Plätze. Natürlich kann immer etwas Unvorhersehbares dazwischen kommen, aber falls möglich lass uns bitte wissen, wenn du nicht kommen kannst.
 
