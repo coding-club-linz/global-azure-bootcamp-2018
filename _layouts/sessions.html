@@ -2,7 +2,8 @@
 layout: default
 ---
 
-{% for page in site.pages %}
+{% assign sorted_pages = site.pages | sort:"title" %}
+{% for page in sorted_pages %}
 	{% if page.page-category == "session" or page.page-category == "junior-session" %}
         <h1 class="speaker-title">{{ page.title }}<br/>
             {% if page.page-category == "session" %}
