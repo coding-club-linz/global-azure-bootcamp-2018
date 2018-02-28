@@ -1,6 +1,6 @@
 ---
 page-category: sponsor
-title: softaware gmbh
+title: softaware
 image: logo-softaware.jpg
 ---
 
@@ -15,5 +15,5 @@ Wir entwickeln maßgeschneiderte Software-Lösungen auf Basis modernster Technol
  
 Ein großes Büro in Asten, 16 MitarbeiterInnen und zufriedene Kunden aus allen Branchen, vom internationalen Holzhändler bis zur Mineralölindustrie, vom Rettungswesen bis zum Personaldienstleister, vom Schulbereich bis zur computergestützten Therapie belegen den Erfolg.
  
-Unsere Kunden schätzen uns für unsere technische Kompetenz, aber auch für unsere innovativen Ideen und eine Zusammenarbeit mit Handschlagqualität. Wir lösen nicht nur Probleme, wir identifizieren uns mit den Projekten und schaffen Begeisterung.
+Unsere Kunden schätzen uns für unsere technische Kompetenz, aber auch für unsere innovativen Ideen und eine Zusammenarbeit mit Handschlagqualität. Wir lösen nicht nur Probleme, wir identifizieren uns mit den Projekten und schaffen Begeisterung.<br/>
 Aware of your ideas. Developing your software.
