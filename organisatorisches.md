@@ -17,7 +17,7 @@ Auch wenn die Veranstaltung kostenlos ist, ist eine Anmeldung notwendig. Wir hab
 
 ## Abmeldung
 
-Falls du doch nicht kommen kannst, storniere bitte dein Ticket bei Eventbrite oder schicke uns eine Mail an [info@coderdojo-linz.org](mailto:info@coderdojo-linz.org), auch wenn es schon kurz vor der Veranstaltung ist, damit wir dein Platz noch an einen anderen Interessenten weitergeben können. 
+Falls du doch nicht kommen kannst, storniere bitte dein Ticket bei Eventbrite oder schicke uns eine Mail an [info@coderdojo-linz.org](mailto:info@coderdojo-linz.org), auch wenn es schon kurz vor der Veranstaltung ist, damit wir deinen Platz noch an einen anderen Interessenten weitergeben können. 
 
 Die Warteliste war in den letzten Jahren lange und trotzdem hatten wir bei der Veranstaltung immer noch einige freie Plätze. Natürlich kann immer etwas Unvorhersehbares dazwischen kommen, aber falls möglich lass uns bitte wissen, wenn du nicht kommen kannst.
 
@@ -31,7 +31,7 @@ Adresse: Kärntnerstraße 26, A-4020 Linz
 
 Da sich der Wissensturm direkt neben dem Linzer Hauptbahnhof befindet, empfehlen wir die Anreise mit öffentlichen Verkehrsmitteln.
 
-Der Start der Veranstaltung um 09:15 ist diesmal so gewählte, dass es sowohl aus Wien als auch aus Richtung Salzburg Zugverbindungen gibt, die um ca. 09:00 Uhr in Linz ankommen. Für alle, die auch noch was vom Frühstück abbekommen wollen, gibt es natürlich auch frühere Zugverbindungen. Der Check-In startet um 08:15 und da gibt es auch gleich Kaffee, Getränke und kleine Snacks.
+Der Start der Veranstaltung um 09:15 ist diesmal so gewählte, dass es sowohl aus Wien als auch aus Richtung Salzburg Zugverbindungen gibt, die um ca. 09:00 Uhr in Linz ankommen. Für alle, die auch noch was vom Frühstück abbekommen wollen, gibt es natürlich auch frühere Zugverbindungen. Der Check-In startet um 08:30 und da gibt es auch gleich Kaffee, Getränke und kleine Snacks.
 
 [Mehr über Anreise und Parken...](http://www.linz.at/wissensturm/anreise.asp)<br/>
 

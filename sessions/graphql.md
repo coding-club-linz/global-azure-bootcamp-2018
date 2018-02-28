@@ -1,7 +1,7 @@
 ---
 layout: session
 page-category: session
-title: GraphQL - Forget (the) REST
+title: GraphQL – forget (the) REST?
 speaker: Christian Schwendtner
 speaker-id: christian-schwendtner
 room: '10.07'
