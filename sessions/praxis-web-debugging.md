@@ -4,7 +4,7 @@ page-category: junior-session
 title: Praxis Web-Debugging
 speaker: Andreas Pollak
 speaker-id: andreas-pollak
-room: '15.05'
+room: '09.08'
 slot: 5
 ---
 
