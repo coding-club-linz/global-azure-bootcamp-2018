@@ -19,6 +19,10 @@ Folgendes könnt Ihr beim Junior-Bootcamp erwarten:
 * Ihr bekommt viele praktische Tipps, die Ihr sofort nutzen könnt
 * Ihr seht, wie eine echte IT-Konferenz abläuft
 
-Die Teilnahme am Event ist dank der [Sponsoren]({{ site.baseurl }}/sponsoren.html) kostenlos. [Spectologic](http://www.spectologic.com/) übernimmt die Kosten für Getränke und Snacks für das Junior Bootcamp. Ein großes **Dankeschön** dafür!
+Die Teilnahme am Event ist dank der [Sponsoren]({{ site.baseurl }}/sponsoren.html) kostenlos. 
+
+[Spectologic](http://www.spectologic.com/) übernimmt die Kosten für Getränke und Snacks für das Junior Bootcamp. Ein großes **Dankeschön** dafür!
+
+Und ein weiteres **Dankeschön** geht an die Firma [ACP](https://www.acp.at/standorte/detail/wien-acp-business-applications-gmbh/), die für alle Teilnehmer am Junior Bootcamp eine kleine Überaschung zur Verfügung stellt!
 </div>
 </div>
