@@ -24,3 +24,10 @@ Hier ein Auszug aus dem Themen, die euch beim Global Azure Bootcamp in Linz erwa
 * Office 365
 </div>
 </div>
+
+<p class="text-center">
+    <a class="btn btn-primary btn-lg" href="https://www.eventbrite.de/e/global-azure-bootcamp-austria-2018-tickets-41621435835"
+        role="button">
+        Zur Anmeldung
+    </a>
+</p>
