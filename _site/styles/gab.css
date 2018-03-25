@@ -20,6 +20,10 @@ a {
     font-size: 16px;
 }
 
+.btn-primary.btn-sm {
+    font-size: 14px;
+}
+
 .jumbotron {
     background-position: center top;
     color: #fff;
@@ -175,7 +179,20 @@ img.session-speaker {
     font-weight: normal;
 }
 
-.program div.sessions > div:nth-child(5n+1) {
+.program div.sessions > div {
+    background-color: #eee;
+}
+
+.program div.sessions .expand-content {
+    background-image: linear-gradient(to bottom, transparent, #eee 75%);
+}
+
+.program div.sessions > div.selected .expand-content {
+    background-image: linear-gradient(to bottom, transparent, #B2EBF2 75%);
+}
+
+
+/* .program div.sessions > div:nth-child(5n+1) {
     background-color: #e0e0e0;
 }
 
@@ -208,7 +225,7 @@ img.session-speaker {
     background-color: #e0e0e0;
     padding: 5px 20px;
     font-size: 1.5rem;
-}
+} */
 
 .program > h2 > p {
     font-size: 16px;
@@ -218,13 +235,55 @@ img.session-speaker {
 }
 
 .program h3 {
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 10px;
+}
+
+.program-session-container {
+    position: relative;
+    height: 100%;
+    margin-bottom: 30px;
+}
+
+.program-session-container .program-session-selected.add {
+    display: block;
+}
+
+.program-session-container .program-session-selected.remove {
+    display: none;
+}
+
+.program div.sessions > div.selected {
+    background-color: #B2EBF2;
+}
+
+.program div.sessions > div.selected .program-session-selected.add {
+    display: none;
+}
+
+.program div.sessions > div.selected .program-session-selected.remove {
+    display: block;
 }
 
 .program-session-content {
     overflow: hidden;
     margin-bottom: 1rem;
+}
+
+.program-session-selected {
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+
+.program-session-selected .badge {
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+.program-session-selected i {
+    /* font-size: 24px; */
 }
 
 .expand-content {
@@ -245,7 +304,7 @@ img.session-speaker {
     text-align: center;
 }
 
-.program div.sessions > div:nth-child(5n+2) .expand-content {
+/* .program div.sessions > div:nth-child(5n+2) .expand-content {
     background-image: linear-gradient(to bottom, transparent, #B2EBF2 75%);
 }
 
@@ -259,7 +318,7 @@ img.session-speaker {
 
 .program div.sessions > div:nth-child(5n+0) .expand-content {
     background-image: linear-gradient(to bottom, transparent, #E6EE9C 75%);
-}
+} */
 
 .collapse-content+.program-session-speakers {
     margin-top: calc(30px - 1rem);
