@@ -61,8 +61,7 @@ window.addEventListener('load', function () {
         e.preventDefault();
 
         // store current url
-        window.localStorage.setItem('auth0RedirectUrl', location.href);
-        webAuth.authorize();
+        login();
     });
 
     logoutBtn.addEventListener('click', logout);
@@ -73,10 +72,16 @@ window.addEventListener('load', function () {
         localStorage.removeItem('id_token');
         localStorage.removeItem('expires_at');
         displayButtons();
+        document.location.reload();
     }
 
     handleAuthentication();
 });
+
+function login() {
+    window.localStorage.setItem('auth0RedirectUrl', location.href);
+    webAuth.authorize();
+}
 
 function isAuthenticated() {
     // Check whether the current time is past the
@@ -171,9 +176,6 @@ function confirmLogin() {
     $('#confirmLoginModal').modal({});
 
     var modalConfirm = function (callback) {
-        $("#btn-confirm").on("click", function () {
-            $("#mi-modal").modal('show');
-        });
 
         $("#modal-btn-login").on("click", function () {
             callback(true);

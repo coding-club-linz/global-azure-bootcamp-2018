@@ -194,14 +194,19 @@ E09 | Ergeschoß | Im großen Veranstaltungssaal des Wissensturm starten wir die
 {: .table }
 
 <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="confirmLoginModal">
-  <div class="modal-dialog modal-sm">
+  <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
+        <h5 class="modal-title">Login</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
       </div>
+      <div class="modal-body">
+        <p>Damit deine Sessions gespeichert werden können, musst du dich erst anmelden. Du kannst dafür dein Microsoft oder Google Konto verwenden, 
+        oder du vergibts einen eigenen Usernamen und ein Passwort.</p>
+      </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary" id="modal-btn-login">Login</button>
-        <button type="button" class="btn btn-default" id="modal-btn-cancel">Abbrechen</button>
+        <button type="button" class="btn btn-primary" id="modal-btn-login" onclick="login()">Weiter zum Login</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Abbrechen</button>
       </div>
     </div>
   </div>

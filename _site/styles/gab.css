@@ -246,10 +246,18 @@ img.session-speaker {
 }
 
 .program-session-container .program-session-selected.add {
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: block;
 }
 
 .program-session-container .program-session-selected.remove {
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: none;
 }
 
@@ -279,7 +287,12 @@ img.session-speaker {
 
 .program-session-selected .badge {
     font-size: 12px;
-    padding: 5px 10px;
+    padding: 10px 15px;
+    background-color: #999;
+}
+
+.program-session-selected .badge:hover {
+    background-color: #0094ff;
 }
 
 .program-session-selected i {
@@ -336,6 +349,7 @@ img.session-speaker {
 
 .program-session-speakers {
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .card-deck {
