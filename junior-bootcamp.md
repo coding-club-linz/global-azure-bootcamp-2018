@@ -19,6 +19,33 @@ Folgendes könnt Ihr beim Junior-Bootcamp erwarten:
 * Ihr bekommt viele praktische Tipps, die Ihr sofort nutzen könnt
 * Ihr seht, wie eine echte IT-Konferenz abläuft
 
-Die Teilnahme am Event ist dank der [Sponsoren]({{ site.baseurl }}/sponsoren.html) kostenlos. [Spectologic](http://www.spectologic.com/) übernimmt die Kosten für Getränke und Snacks für das Junior Bootcamp. Ein großes **Dankeschön** dafür!
+Die Teilnahme am Event ist dank der [Sponsoren]({{ site.baseurl }}/sponsoren.html) kostenlos. 
+
+[Spectologic](http://www.spectologic.com/) übernimmt die Kosten für Getränke und Snacks für das Junior Bootcamp. Ein großes **Dankeschön** dafür!
+
+Und ein weiteres **Dankeschön** geht an die Firma [ACP](https://www.acp.at/standorte/detail/wien-acp-business-applications-gmbh/), die für alle Teilnehmer am Junior Bootcamp eine kleine Überaschung zur Verfügung stellt!
+
 </div>
 </div>
+
+<h2>Programm</h2>
+
+<div class="container program junior-program">
+<div class="row sessions">
+<div class="col-md-4">{% include junior-session-card.html room='09.08' slot=2 %}</div>
+<div class="col-md-4">{% include junior-session-card.html room='09.08' slot=3 %}</div>
+<div class="col-md-4">{% include junior-session-card.html room='09.08' slot=4 %}</div>
+</div>
+<div class="row sessions">
+<div class="col-md-4">{% include junior-session-card.html room='09.08' slot=5 %}</div>
+<div class="col-md-4">{% include junior-session-card.html room='09.08' slot=6 %}</div>
+</div>
+</div>
+
+<p>&nbsp;</p>
+<p class="text-center">
+    <a class="btn btn-primary btn-lg" href="https://www.eventbrite.de/e/global-azure-bootcamp-austria-2018-tickets-41621435835"
+        role="button">
+        Zur Anmeldung
+    </a>
+</p>

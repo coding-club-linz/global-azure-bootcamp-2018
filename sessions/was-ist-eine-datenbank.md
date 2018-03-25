@@ -4,7 +4,7 @@ page-category: junior-session
 title: Was ist eine Datenbank und wo nützt sie mir?
 speaker: Markus Ehrenmüller-Jensen
 speaker-id: markus-ehrenmueller-jensen
-room: '15.05'
+room: '09.08'
 slot: 4
 ---
 

@@ -10,9 +10,10 @@ Der Zeitplan steht noch nicht fest. Die Zeiten der einzelnen Sessions können si
 <div class="row sessions">
         <div class="col-md-1 d-none d-md-block">Raum</div>
         <div class="col-md-3 d-none d-md-block">E09</div>
+        <div class="col-md-2 d-none d-md-block">09.08</div>
         <div class="col-md-2 d-none d-md-block">10.07</div>
-        <div class="col-md-3 d-none d-md-block">15.04</div>
-        <div class="col-md-3 d-none d-md-block">15.05</div>
+        <div class="col-md-2 d-none d-md-block">15.04</div>
+        <div class="col-md-2 d-none d-md-block">15.05</div>
 </div>
 <div class="row break">
         <div class="col-md-1">08:30</div>
@@ -26,9 +27,10 @@ Der Zeitplan steht noch nicht fest. Die Zeiten der einzelnen Sessions können si
 <div class="row sessions">
         <div class="col-md-1">09:55</div>
         <div class="col-md-3">{% include session-card.html room='E09' slot=2 %}</div>
+        <div class="col-md-2">{% include session-card.html room='09.08' slot=2 %}</div>
         <div class="col-md-2">{% include session-card.html room='10.07' slot=2 %}</div>
-        <div class="col-md-3">{% include session-card.html room='15.04' slot=2 %}</div>
-        <div class="col-md-3">{% include session-card.html room='15.05' slot=2 %}</div>
+        <div class="col-md-2">{% include session-card.html room='15.04' slot=2 %}</div>
+        <div class="col-md-2">{% include session-card.html room='15.05' slot=2 %}</div>
 </div>
 <div class="row break">
         <div class="col-md-1">10:45</div>
@@ -39,9 +41,10 @@ Der Zeitplan steht noch nicht fest. Die Zeiten der einzelnen Sessions können si
 <div class="row sessions">
         <div class="col-md-1">11:10</div>
         <div class="col-md-3">{% include session-card.html room='E09' slot=3 %}</div>
+        <div class="col-md-2">{% include session-card.html room='09.08' slot=3 %}</div>
         <div class="col-md-2">{% include session-card.html room='10.07' slot=3 %}</div>
-        <div class="col-md-3">{% include session-card.html room='15.04' slot=3 %}</div>
-        <div class="col-md-3">{% include session-card.html room='15.05' slot=3 %}</div>
+        <div class="col-md-2">{% include session-card.html room='15.04' slot=3 %}</div>
+        <div class="col-md-2">{% include session-card.html room='15.05' slot=3 %}</div>
 </div>
 <div class="row break">
         <div class="col-md-1">12:00</div>
@@ -52,9 +55,10 @@ Der Zeitplan steht noch nicht fest. Die Zeiten der einzelnen Sessions können si
 <div class="row sessions">
         <div class="col-md-1">13:00</div>
         <div class="col-md-3">{% include session-card.html room='E09' slot=4 %}</div>
+        <div class="col-md-2">{% include session-card.html room='09.08' slot=4 %}</div>
         <div class="col-md-2">{% include session-card.html room='10.07' slot=4 %}</div>
-        <div class="col-md-3">{% include session-card.html room='15.04' slot=4 %}</div>
-        <div class="col-md-3">{% include session-card.html room='15.05' slot=4 %}</div>
+        <div class="col-md-2">{% include session-card.html room='15.04' slot=4 %}</div>
+        <div class="col-md-2">{% include session-card.html room='15.05' slot=4 %}</div>
 </div>
 <div class="row break">
         <div class="col-md-1">13:50</div>
@@ -65,9 +69,10 @@ Der Zeitplan steht noch nicht fest. Die Zeiten der einzelnen Sessions können si
 <div class="row sessions">
         <div class="col-md-1">14:05</div>
         <div class="col-md-3">{% include session-card.html room='E09' slot=5 %}</div>
+        <div class="col-md-2">{% include session-card.html room='09.08' slot=5 %}</div>
         <div class="col-md-2">{% include session-card.html room='10.07' slot=5 %}</div>
-        <div class="col-md-3">{% include session-card.html room='15.04' slot=5 %}</div>
-        <div class="col-md-3">{% include session-card.html room='15.05' slot=5 %}</div>
+        <div class="col-md-2">{% include session-card.html room='15.04' slot=5 %}</div>
+        <div class="col-md-2">{% include session-card.html room='15.05' slot=5 %}</div>
 </div>
 <div class="row break">
         <div class="col-md-1">14:55</div>
@@ -78,9 +83,10 @@ Der Zeitplan steht noch nicht fest. Die Zeiten der einzelnen Sessions können si
 <div class="row sessions">
         <div class="col-md-1">15:10</div>
         <div class="col-md-3">{% include session-card.html room='E09' slot=6 %}</div>
+        <div class="col-md-2">{% include session-card.html room='09.08' slot=6 %}</div>
         <div class="col-md-2">{% include session-card.html room='10.07' slot=6 %}</div>
-        <div class="col-md-3">{% include session-card.html room='15.04' slot=6 %}</div>
-        <div class="col-md-3">{% include session-card.html room='15.05' slot=6 %}</div>
+        <div class="col-md-2">{% include session-card.html room='15.04' slot=6 %}</div>
+        <div class="col-md-2">{% include session-card.html room='15.05' slot=6 %}</div>
 </div>
 <div class="row sessions">
         <div class="col-md-1">16:00</div>
@@ -96,9 +102,10 @@ Der Zeitplan steht noch nicht fest. Die Zeiten der einzelnen Sessions können si
 Raum | Stockwerk | Beschreibung
 - | - | -
 E09 | Ergeschoß | Im großen Veranstaltungssaal des Wissensturm starten wir diesmal ab 08:30 mit dem Check-In und einem kleine Frühstück. Danach findet dort gleich die Keynote statt. Anschließend gibt es dort weitere Sessions für das Azure Bootcamp.<br/>Du findest im Raum E09 den ganzen Tag über Kaffe, Getränke und kleine Snacks zur Stärkung.
+09.08 | 9. Stock | Junior Bootcamp Sessions
 10.07 | 10. Stock | Azure Bootcamp Sessions
 15.04 | 15. Stock | Azure Bootcamp Sessions
-15.05 | 15. Stock | Junior Bootcamp Sessions
+15.05 | 15. Stock | Azure Bootcamp Sessions
 {: .table }
 
 <script>
