@@ -6,14 +6,19 @@ layout: default
 
 Der Zeitplan steht noch nicht fest. Die Zeiten der einzelnen Sessions können sich noch ändern und es werden noch weitere Sessions hinzukommen. Unter <a href="{{ site.baseurl }}/sessions.html">Sessions</a> findest du eine Übersicht über alle bis jetzt zur Verfügung stehenden Sessions.
 
+- <a href="{{ site.baseurl }}/programm.html#azure-bootcamp">Azure Bootcamp</a>
+- <a href="{{ site.baseurl }}/programm.html#junior-bootcamp">Junior Bootcamp</a>
+- <a href="{{ site.baseurl }}/programm.html#rume">Räume</a>
+
+## Azure Bootcamp
+
 <div class="container program">
 <div class="row sessions">
         <div class="col-md-1 d-none d-md-block">Raum</div>
-        <div class="col-md-3 d-none d-md-block">E09</div>
-        <div class="col-md-2 d-none d-md-block">09.08</div>
-        <div class="col-md-2 d-none d-md-block">10.07</div>
-        <div class="col-md-2 d-none d-md-block">15.04</div>
-        <div class="col-md-2 d-none d-md-block">15.05</div>
+        <div class="col-md-3 d-none d-md-block">E09<br/></div>
+        <div class="col-md-3 d-none d-md-block">10.07<br/></div>
+        <div class="col-md-3 d-none d-md-block">15.04<br/></div>
+        <div class="col-md-2 d-none d-md-block">15.05<br/></div>
 </div>
 <div class="row break">
         <div class="col-md-1">08:30</div>
@@ -22,70 +27,68 @@ Der Zeitplan steht noch nicht fest. Die Zeiten der einzelnen Sessions können si
 </div>
 <div class="row sessions">
         <div class="col-md-1">09:15</div>
-        <div class="col-md-3"><h3>KEYNOTE</h3>{% include session-card.html room='E09' slot=1 %}</div>
+        <div class="col-md-3">{% include session-card.html room='E09' slot=1 %}</div>
+        <div class="col-md-3 d-none d-md-block"></div>
+        <div class="col-md-3 d-none d-md-block"></div>
+        <div class="col-md-2 d-none d-md-block"></div>
 </div>
 <div class="row sessions">
         <div class="col-md-1">09:55</div>
         <div class="col-md-3">{% include session-card.html room='E09' slot=2 %}</div>
-        <div class="col-md-2">{% include session-card.html room='09.08' slot=2 %}</div>
-        <div class="col-md-2">{% include session-card.html room='10.07' slot=2 %}</div>
-        <div class="col-md-2">{% include session-card.html room='15.04' slot=2 %}</div>
+        <div class="col-md-3">{% include session-card.html room='10.07' slot=2 %}</div>
+        <div class="col-md-3">{% include session-card.html room='15.04' slot=2 %}</div>
         <div class="col-md-2">{% include session-card.html room='15.05' slot=2 %}</div>
 </div>
 <div class="row break">
         <div class="col-md-1">10:45</div>
         <div class="col-md-3">Kaffee, Getränke und kleine Snacks</div>
-        <div class="col-md-2 d-none d-md-block"></div>
-        <div class="col-md-6 d-none d-md-block">Kaffee, Getränke und kleine Snacks</div>
+        <div class="col-md-3 d-none d-md-block"></div>
+        <div class="col-md-5 d-none d-md-block">Kaffee, Getränke und kleine Snacks</div>
 </div>
 <div class="row sessions">
         <div class="col-md-1">11:10</div>
         <div class="col-md-3">{% include session-card.html room='E09' slot=3 %}</div>
-        <div class="col-md-2">{% include session-card.html room='09.08' slot=3 %}</div>
-        <div class="col-md-2">{% include session-card.html room='10.07' slot=3 %}</div>
-        <div class="col-md-2">{% include session-card.html room='15.04' slot=3 %}</div>
+        <div class="col-md-3">{% include session-card.html room='10.07' slot=3 %}</div>
+        <div class="col-md-3">{% include session-card.html room='15.04' slot=3 %}</div>
         <div class="col-md-2">{% include session-card.html room='15.05' slot=3 %}</div>
 </div>
 <div class="row break">
         <div class="col-md-1">12:00</div>
         <div class="col-md-3 d-none d-md-block"></div>
-        <div class="col-md-2 d-none d-md-block"></div>
-        <div class="col-md-6">Warmes Mittagessen</div>
+        <div class="col-md-3 d-none d-md-block"></div>
+        <div class="col-md-5">Warmes Mittagessen</div>
 </div>
 <div class="row sessions">
         <div class="col-md-1">13:00</div>
         <div class="col-md-3">{% include session-card.html room='E09' slot=4 %}</div>
-        <div class="col-md-2">{% include session-card.html room='09.08' slot=4 %}</div>
-        <div class="col-md-2">{% include session-card.html room='10.07' slot=4 %}</div>
-        <div class="col-md-2">{% include session-card.html room='15.04' slot=4 %}</div>
+        <div class="col-md-3">{% include session-card.html room='10.07' slot=4 %}</div>
+        <div class="col-md-3">{% include session-card.html room='15.04' slot=4 %}</div>
         <div class="col-md-2">{% include session-card.html room='15.05' slot=4 %}</div>
 </div>
 <div class="row break">
         <div class="col-md-1">13:50</div>
         <div class="col-md-3">Kaffee, Getränke und Kuchen</div>
-        <div class="col-md-2 d-none d-md-block"></div>
-        <div class="col-md-6 d-none d-md-block">Kaffee, Getränke und Kuchen</div>
+        <div class="col-md-3 d-none d-md-block"></div>
+        <div class="col-md-5 d-none d-md-block">Kaffee, Getränke und Kuchen</div>
 </div>
 <div class="row sessions">
         <div class="col-md-1">14:05</div>
         <div class="col-md-3">{% include session-card.html room='E09' slot=5 %}</div>
-        <div class="col-md-2">{% include session-card.html room='09.08' slot=5 %}</div>
-        <div class="col-md-2">{% include session-card.html room='10.07' slot=5 %}</div>
-        <div class="col-md-2">{% include session-card.html room='15.04' slot=5 %}</div>
+        <div class="col-md-3">{% include session-card.html room='10.07' slot=5 %}</div>
+        <div class="col-md-3">{% include session-card.html room='15.04' slot=5 %}</div>
         <div class="col-md-2">{% include session-card.html room='15.05' slot=5 %}</div>
 </div>
 <div class="row break">
         <div class="col-md-1">14:55</div>
         <div class="col-md-3">Kaffee, Getränke und Kuchen</div>
-        <div class="col-md-2 d-none d-md-block"></div>
-        <div class="col-md-6 d-none d-md-block">Kaffee, Getränke und Kuchen</div>
+        <div class="col-md-3 d-none d-md-block"></div>
+        <div class="col-md-5 d-none d-md-block">Kaffee, Getränke und Kuchen</div>
 </div>
 <div class="row sessions">
         <div class="col-md-1">15:10</div>
         <div class="col-md-3">{% include session-card.html room='E09' slot=6 %}</div>
-        <div class="col-md-2">{% include session-card.html room='09.08' slot=6 %}</div>
-        <div class="col-md-2">{% include session-card.html room='10.07' slot=6 %}</div>
-        <div class="col-md-2">{% include session-card.html room='15.04' slot=6 %}</div>
+        <div class="col-md-3">{% include session-card.html room='10.07' slot=6 %}</div>
+        <div class="col-md-3">{% include session-card.html room='15.04' slot=6 %}</div>
         <div class="col-md-2">{% include session-card.html room='15.05' slot=6 %}</div>
 </div>
 <div class="row sessions">
@@ -94,6 +97,88 @@ Der Zeitplan steht noch nicht fest. Die Zeiten der einzelnen Sessions können si
                 <h3>Abschluss</h3>
                 <p>Coding Club Linz</p>
         </div>
+        <div class="col-md-3 d-none d-md-block"></div>
+        <div class="col-md-3 d-none d-md-block"></div>
+        <div class="col-md-2 d-none d-md-block"></div>
+</div>
+</div>
+
+## Junior Bootcamp
+<div class="container program">
+<div class="row sessions">
+        <div class="col-md-1 d-none d-md-block">Raum</div>
+        <div class="col-md-4 d-none d-md-block">E09<br/></div>
+        <div class="col-md-4 d-none d-md-block">09.08</div>
+        <div class="col-md-3 d-none d-md-block">15. Stock</div>
+</div>
+<div class="row break">
+        <div class="col-md-1">09:30</div>
+        <div class="col-md-4">Check-In / Getränke und kleine Snacks</div>
+        <div class="col-md-4 d-none d-md-block"></div>
+        <div class="col-md-3 d-none d-md-block"></div>
+</div>
+<div class="row sessions">
+        <div class="col-md-1">09:55</div>
+        <div class="col-md-4 d-none d-md-block"></div>
+        <div class="col-md-4">{% include session-card.html room='09.08' slot=2 %}</div>
+        <div class="col-md-3 d-none d-md-block"></div>
+</div>
+<div class="row break">
+        <div class="col-md-1">10:45</div>
+        <div class="col-md-4">Getränke und kleine Snacks</div>
+        <div class="col-md-4 d-none d-md-block"></div>
+        <div class="col-md-3">Getränke und kleine Snacks</div>
+</div>
+<div class="row sessions">
+        <div class="col-md-1">11:10</div>
+        <div class="col-md-4 d-none d-md-block"></div>
+        <div class="col-md-4">{% include session-card.html room='09.08' slot=3 %}</div>
+        <div class="col-md-3 d-none d-md-block"></div>
+</div>
+<div class="row break">
+        <div class="col-md-1">12:00</div>
+        <div class="col-md-4 d-none d-md-block"></div>
+        <div class="col-md-4 d-none d-md-block"></div>
+        <div class="col-md-3">Warmes Mittagessen</div>
+</div>
+<div class="row sessions">
+        <div class="col-md-1">13:00</div>
+        <div class="col-md-4 d-none d-md-block"></div>
+        <div class="col-md-4">{% include session-card.html room='09.08' slot=4 %}</div>
+        <div class="col-md-3 d-none d-md-block"></div>
+</div>
+<div class="row break">
+        <div class="col-md-1">13:50</div>
+        <div class="col-md-4">Getränke und Kuchen</div>
+        <div class="col-md-4 d-none d-md-block"></div>
+        <div class="col-md-3">Getränke und Kuchen</div>
+</div>
+<div class="row sessions">
+        <div class="col-md-1">14:05</div>
+        <div class="col-md-4 d-none d-md-block"></div>
+        <div class="col-md-4">{% include session-card.html room='09.08' slot=5 %}</div>
+        <div class="col-md-3 d-none d-md-block"></div>
+</div>
+<div class="row break">
+        <div class="col-md-1">14:55</div>
+        <div class="col-md-4">Getränke und Kuchen</div>
+        <div class="col-md-4 d-none d-md-block"></div>
+        <div class="col-md-3">Getränke und Kuchen</div>
+</div>
+<div class="row sessions">
+        <div class="col-md-1">15:10</div>
+        <div class="col-md-4 d-none d-md-block"></div>
+        <div class="col-md-4">{% include session-card.html room='09.08' slot=6 %}</div>
+        <div class="col-md-3 d-none d-md-block"></div>
+</div>
+<div class="row sessions">
+        <div class="col-md-1">16:00</div>
+        <div class="col-md-4">
+                <h3>Abschluss</h3>
+                <p>Coding Club Linz</p>
+        </div>
+        <div class="col-md-4 d-none d-md-block"></div>
+        <div class="col-md-3 d-none d-md-block"></div>
 </div>
 </div>
 
@@ -107,6 +192,25 @@ E09 | Ergeschoß | Im großen Veranstaltungssaal des Wissensturm starten wir die
 15.04 | 15. Stock | Azure Bootcamp Sessions
 15.05 | 15. Stock | Azure Bootcamp Sessions
 {: .table }
+
+<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="confirmLoginModal">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Login</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+      <div class="modal-body">
+        <p>Damit deine Sessions gespeichert werden können, musst du dich erst anmelden. Du kannst dafür dein Microsoft oder Google Konto verwenden, 
+        oder du vergibts einen eigenen Usernamen und ein Passwort.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" id="modal-btn-login" onclick="login()">Weiter zum Login</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Abbrechen</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <script>
         $(function() {
@@ -124,4 +228,8 @@ E09 | Ergeschoß | Im großen Veranstaltungssaal des Wissensturm starten wir die
                         window.event.cancelBubble = true;
                 }
         }
+
+        $( document ).ready(function() {
+                initializeSessions();
+        });
 </script>

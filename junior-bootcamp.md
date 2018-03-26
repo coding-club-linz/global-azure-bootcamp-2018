@@ -42,6 +42,8 @@ Und ein weiteres **Dankeschön** geht an die Firma [ACP](https://www.acp.at/stan
 </div>
 </div>
 
+Details zum Zeitplan findet ihr im [Programm]({{ site.baseurl }}/programm.html#junior-bootcamp).
+
 <p>&nbsp;</p>
 <p class="text-center">
     <a class="btn btn-primary btn-lg" href="https://www.eventbrite.de/e/global-azure-bootcamp-austria-2018-tickets-41621435835"
