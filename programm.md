@@ -4,10 +4,6 @@ layout: default
 
 # Programm
 
-Der Zeitplan steht noch nicht fest. Die Zeiten der einzelnen Sessions können sich noch ändern und es werden noch weitere Sessions hinzukommen. Unter <a href="{{ site.baseurl }}/sessions.html">Sessions</a> findest du eine Übersicht über alle bis jetzt zur Verfügung stehenden Sessions.
-
-## Azure Bootcamp
-
 <div class="container program">
 <div class="row sessions">
         <div class="col-md-1 d-none d-md-block">Raum</div>
@@ -118,7 +114,7 @@ E09 | Ergeschoß | Im großen Veranstaltungssaal des Wissensturm starten wir die
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
       </div>
       <div class="modal-body">
-        <p>Damit deine Sessions gespeichert werden können, musst du dich erst anmelden. Du kannst dafür dein Microsoft oder Google Konto verwenden, 
+        <p>Damit deine Sessions gespeichert werden können, musst du dich anmelden. Du kannst dafür dein Microsoft oder Google Konto verwenden, 
         oder du vergibts einen eigenen Usernamen und ein Passwort.</p>
       </div>
       <div class="modal-footer">

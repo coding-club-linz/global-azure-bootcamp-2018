@@ -37,17 +37,6 @@ Und ein weiteres **Dankeschön** geht an die Firma [ACP](https://www.acp.at/stan
 
 <h2>Programm</h2>
 
-<!-- <div class="container program junior-program">
-<div class="row sessions">
-<div class="col-md-4"><h3>9:55 - 10:45</h3>{% include junior-session-card.html room='09.08' slot=2 %}</div>
-<div class="col-md-4"><h3>11:10 - 12:00</h3>{% include junior-session-card.html room='09.08' slot=3 %}</div>
-<div class="col-md-4"><h3>13:00 - 13:50</h3>{% include junior-session-card.html room='09.08' slot=4 %}</div>
-</div>
-<div class="row sessions">
-<div class="col-md-4"><h3>14:05 - 14:55</h3>{% include junior-session-card.html room='09.08' slot=5 %}</div>
-<div class="col-md-4"><h3>15:10 - 16:00</h3>{% include junior-session-card.html room='09.08' slot=6 %}</div>
-</div>
-</div> -->
 <div class="container program junior-program">
 <div class="row sessions">
         <div class="col-md-1 d-none d-md-block">Raum</div>
@@ -133,3 +122,12 @@ Und ein weiteres **Dankeschön** geht an die Firma [ACP](https://www.acp.at/stan
         Zur Anmeldung
     </a>
 </p>
+
+## Räume
+
+Raum | Stockwerk | Beschreibung
+- | - | -
+E09 | Ergeschoß | Vor dem großen Veranstaltungssaal des Wissensturm starten wir ab 09:30 mit dem Check-In und einem kleine Frühstück. Danach geht's im 9. Stock mit dem Junior Bootcamp weiter.<br/>Du findest im Raum E09 den ganzen Tag über Getränke und kleine Snacks zur Stärkung.
+09.08 | 9. Stock | Junior Bootcamp Sessions
+15.05 | 15. Stock | Mittagessen und Getränke und Snacks in den Pausen
+{: .table }
