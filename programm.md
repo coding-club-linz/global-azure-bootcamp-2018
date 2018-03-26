@@ -6,10 +6,6 @@ layout: default
 
 Der Zeitplan steht noch nicht fest. Die Zeiten der einzelnen Sessions können sich noch ändern und es werden noch weitere Sessions hinzukommen. Unter <a href="{{ site.baseurl }}/sessions.html">Sessions</a> findest du eine Übersicht über alle bis jetzt zur Verfügung stehenden Sessions.
 
-- <a href="{{ site.baseurl }}/programm.html#azure-bootcamp">Azure Bootcamp</a>
-- <a href="{{ site.baseurl }}/programm.html#junior-bootcamp">Junior Bootcamp</a>
-- <a href="{{ site.baseurl }}/programm.html#rume">Räume</a>
-
 ## Azure Bootcamp
 
 <div class="container program">
@@ -100,85 +96,6 @@ Der Zeitplan steht noch nicht fest. Die Zeiten der einzelnen Sessions können si
         <div class="col-md-3 d-none d-md-block"></div>
         <div class="col-md-3 d-none d-md-block"></div>
         <div class="col-md-2 d-none d-md-block"></div>
-</div>
-</div>
-
-## Junior Bootcamp
-<div class="container program">
-<div class="row sessions">
-        <div class="col-md-1 d-none d-md-block">Raum</div>
-        <div class="col-md-4 d-none d-md-block">E09<br/></div>
-        <div class="col-md-4 d-none d-md-block">09.08</div>
-        <div class="col-md-3 d-none d-md-block">15. Stock</div>
-</div>
-<div class="row break">
-        <div class="col-md-1">09:30</div>
-        <div class="col-md-4">Check-In / Getränke und kleine Snacks</div>
-        <div class="col-md-4 d-none d-md-block"></div>
-        <div class="col-md-3 d-none d-md-block"></div>
-</div>
-<div class="row sessions">
-        <div class="col-md-1">09:55</div>
-        <div class="col-md-4 d-none d-md-block"></div>
-        <div class="col-md-4">{% include session-card.html room='09.08' slot=2 %}</div>
-        <div class="col-md-3 d-none d-md-block"></div>
-</div>
-<div class="row break">
-        <div class="col-md-1">10:45</div>
-        <div class="col-md-4">Getränke und kleine Snacks</div>
-        <div class="col-md-4 d-none d-md-block"></div>
-        <div class="col-md-3">Getränke und kleine Snacks</div>
-</div>
-<div class="row sessions">
-        <div class="col-md-1">11:10</div>
-        <div class="col-md-4 d-none d-md-block"></div>
-        <div class="col-md-4">{% include session-card.html room='09.08' slot=3 %}</div>
-        <div class="col-md-3 d-none d-md-block"></div>
-</div>
-<div class="row break">
-        <div class="col-md-1">12:00</div>
-        <div class="col-md-4 d-none d-md-block"></div>
-        <div class="col-md-4 d-none d-md-block"></div>
-        <div class="col-md-3">Warmes Mittagessen</div>
-</div>
-<div class="row sessions">
-        <div class="col-md-1">13:00</div>
-        <div class="col-md-4 d-none d-md-block"></div>
-        <div class="col-md-4">{% include session-card.html room='09.08' slot=4 %}</div>
-        <div class="col-md-3 d-none d-md-block"></div>
-</div>
-<div class="row break">
-        <div class="col-md-1">13:50</div>
-        <div class="col-md-4">Getränke und Kuchen</div>
-        <div class="col-md-4 d-none d-md-block"></div>
-        <div class="col-md-3">Getränke und Kuchen</div>
-</div>
-<div class="row sessions">
-        <div class="col-md-1">14:05</div>
-        <div class="col-md-4 d-none d-md-block"></div>
-        <div class="col-md-4">{% include session-card.html room='09.08' slot=5 %}</div>
-        <div class="col-md-3 d-none d-md-block"></div>
-</div>
-<div class="row break">
-        <div class="col-md-1">14:55</div>
-        <div class="col-md-4">Getränke und Kuchen</div>
-        <div class="col-md-4 d-none d-md-block"></div>
-        <div class="col-md-3">Getränke und Kuchen</div>
-</div>
-<div class="row sessions">
-        <div class="col-md-1">15:10</div>
-        <div class="col-md-4 d-none d-md-block"></div>
-        <div class="col-md-4">{% include session-card.html room='09.08' slot=6 %}</div>
-        <div class="col-md-3 d-none d-md-block"></div>
-</div>
-<div class="row sessions">
-        <div class="col-md-1">16:00</div>
-        <div class="col-md-4">
-                <h3>Abschluss</h3>
-                <p>Coding Club Linz</p>
-        </div>
-        <div class="col-md-4 d-none d-md-block"></div>
-        <div class="col-md-3 d-none d-md-block"></div>
 </div>
 </div>
 

@@ -13,15 +13,15 @@ Das Event ist **100%ig von der Community für die Community**. Die Teilnahme am 
 <div class="col-sm" markdown="1">
 Hier ein Auszug aus dem Themen, die euch beim Global Azure Bootcamp in Linz erwarten:
 
-* Angular und Azure App Service
-* Service Fabric
+* Blazor
+* Bots
+* Cognitive Services
+* CosmosDB
 * Docker
-* Power BI
-* Application Insights
-* Power Apps und Logic Apps
-* Machine Learning und Big Data
-* SQL und NoSQL in Azure
-* Office 365
+* GraphQL
+* IOT
+* Microsoft 365
+* Microsoft Graph
 </div>
 </div>
 
