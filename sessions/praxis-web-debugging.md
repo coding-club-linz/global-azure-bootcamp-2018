@@ -5,7 +5,7 @@ title: Praxis Web-Debugging
 speaker: Andreas Pollak
 speaker-id: andreas-pollak
 room: '09.08'
-slot: 5
+slot: 6
 ---
 
 In dieser Demo-Session lernt ihr clientseitige Webanwendungen und -Schnittstellen zu debuggen/analysieren (Javascript). Ich zeige euch dabei den Einsatz diverser Browser-Debugging-Werkzeuge, Web-Debugging Proxies und Token-Analyzern. Ihr erfahrt wie Webseiten Informationen lokal speichern (Cookies, HTML5 WebStorage) und welche Vorteile der Einsatz von HTTPS hat.

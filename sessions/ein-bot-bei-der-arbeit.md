@@ -5,7 +5,7 @@ title: Ein Bot bei der Arbeit – der AngeBOT, dox42 und MS Graph API
 speaker: Alexander Grill, Michael König
 speaker-id: alexander-grill michael-koenig
 room: '15.04'
-slot: 5
+slot: 3
 ---
 
 Mittlerweile hat sich herumgesprochen, dass künstliche Intelligenz und smarte Maschinen in Form von virtuellen Kollegen (Bots) unseren Alltag und den DIGITAL WORKPLACE der Zukunft begleiten werden. Bei diesem Vortrag von Alexander Grill und Michael König (HATAHET) erfährst Du wie Bots unseren Arbeitsalltag der Zukunft verändern werden.

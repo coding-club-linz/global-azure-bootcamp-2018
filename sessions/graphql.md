@@ -4,8 +4,8 @@ page-category: session
 title: GraphQL – forget (the) REST?
 speaker: Christian Schwendtner
 speaker-id: christian-schwendtner
-room: '10.07'
-slot: 2
+room: 'E09'
+slot: 6
 ---
 
 Spoiler Alert: In dieser Session geht es NICHT um Graph-Datenbanken, auch wenn es der Name vermuten lassen könnte. Es geht um die flexible Abfragesprache GraphQL die u. a. von Facebook, GitHub und Shopify als Alternative zu RESTful Web Services eingesetzt wird.

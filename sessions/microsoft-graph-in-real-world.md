@@ -4,7 +4,7 @@ page-category: session
 title: Microsoft Graph in Real World
 speaker: Toni Pohl
 speaker-id: toni-pohl
-room: E09
+room: '15.04'
 slot: 4
 ---
 

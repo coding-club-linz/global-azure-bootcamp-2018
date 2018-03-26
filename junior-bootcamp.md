@@ -32,13 +32,13 @@ Und ein weiteres **Dankeschön** geht an die Firma [ACP](https://www.acp.at/stan
 
 <div class="container program junior-program">
 <div class="row sessions">
-<div class="col-md-4">{% include junior-session-card.html room='09.08' slot=2 %}</div>
-<div class="col-md-4">{% include junior-session-card.html room='09.08' slot=3 %}</div>
-<div class="col-md-4">{% include junior-session-card.html room='09.08' slot=4 %}</div>
+<div class="col-md-4"><h3>9:55 - 10:45</h3>{% include junior-session-card.html room='09.08' slot=2 %}</div>
+<div class="col-md-4"><h3>11:10 - 12:00</h3>{% include junior-session-card.html room='09.08' slot=3 %}</div>
+<div class="col-md-4"><h3>13:00 - 13:50</h3>{% include junior-session-card.html room='09.08' slot=4 %}</div>
 </div>
 <div class="row sessions">
-<div class="col-md-4">{% include junior-session-card.html room='09.08' slot=5 %}</div>
-<div class="col-md-4">{% include junior-session-card.html room='09.08' slot=6 %}</div>
+<div class="col-md-4"><h3>14:05 - 14:55</h3>{% include junior-session-card.html room='09.08' slot=5 %}</div>
+<div class="col-md-4"><h3>15:10 - 16:00</h3>{% include junior-session-card.html room='09.08' slot=6 %}</div>
 </div>
 </div>
 

@@ -4,7 +4,7 @@ page-category: session
 title: Fallbeispiel Runtastic - Integration von R in die Microsoft Data Platform
 speaker: Markus Ehrenmüller-Jensen
 speaker-id: markus-ehrenmueller-jensen
-room: '15.04'
+room: 'E09'
 slot: 3
 ---
 
