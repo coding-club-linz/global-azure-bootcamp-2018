@@ -180,11 +180,11 @@ img.session-speaker {
 }
 
 .program div.sessions > div {
-    background-color: #FFF9C4;
+    background-color: #eee;
 }
 
 .program div.sessions .expand-content {
-    background-image: linear-gradient(to bottom, transparent, #FFF9C4 75%);
+    background-image: linear-gradient(to bottom, transparent, #eee 75%);
 }
 
 .program div.sessions > div.selected .expand-content {
