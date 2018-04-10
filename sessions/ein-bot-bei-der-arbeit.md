@@ -4,7 +4,7 @@ page-category: session
 title: Ein Bot bei der Arbeit – der AngeBOT, dox42 und MS Graph API
 speaker: Alexander Grill, Michael König
 speaker-id: alexander-grill michael-koenig
-room: '15.04'
+room: 'E09'
 slot: 3
 ---
 
