@@ -4,7 +4,7 @@ page-category: session
 title: Docker Container-as-a-Service in der Azure Cloud
 speaker: Rainer Stropek
 speaker-id: rainer-stropek
-room: '15.05'
+room: '10.07'
 slot: 6
 ---
 

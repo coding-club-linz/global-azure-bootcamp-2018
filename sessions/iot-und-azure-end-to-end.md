@@ -4,7 +4,7 @@ page-category: session
 title: IoT und Azure am Beispiel eines End-To-End Szenarios
 speaker: Thomas Mutzl
 speaker-id: thomas-mutzl
-room: '15.05'
+room: '10.07'
 slot: 2
 ---
 

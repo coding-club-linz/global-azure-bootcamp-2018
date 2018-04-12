@@ -4,7 +4,7 @@ page-category: session
 title: Need more computing power? No problem ... use Azure Batch!
 speaker: Oliver Lintner
 speaker-id: oliver-lintner
-room: '10.07'
+room: '15.05'
 slot: 2
 ---
 

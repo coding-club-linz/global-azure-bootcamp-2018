@@ -4,7 +4,7 @@ page-category: session
 title: Mobile DevOps für Android, iOS, Windows aus einer Hand
 speaker: Gerwald Oberleitner
 speaker-id: gerwald-oberleitner
-room: '10.07'
+room: '15.04'
 slot: 3
 ---
 
