@@ -1,4 +1,4 @@
- --
+---
 layout: session
 page-category: session
 title: CosmosDB Service - One to rule them all
