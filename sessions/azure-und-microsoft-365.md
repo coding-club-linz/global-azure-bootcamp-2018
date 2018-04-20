@@ -4,7 +4,7 @@ page-category: session
 title: Azure und Microsoft 365 ganz im Vertrauen
 speaker: Martina Grom
 speaker-id: martina-grom
-room: '15.05'
+room: '10.07'
 slot: 6
 ---
 

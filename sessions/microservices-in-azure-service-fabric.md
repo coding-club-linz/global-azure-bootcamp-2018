@@ -4,7 +4,7 @@ page-category: session
 title: Microservices in Azure Service Fabric
 speaker: Anton Kalcik
 speaker-id: anton-kalcik
-room: '15.04'
+room: 'E09'
 slot: 5
 ---
 

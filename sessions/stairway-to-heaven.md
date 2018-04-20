@@ -4,7 +4,7 @@ page-category: session
 title: Stairway to Heaven – Der mühsame Aufstieg in die Cloud
 speaker: Raphael Schwarz
 speaker-id: raphael-schwarz
-room: 'E09'
+room: '15.04'
 slot: 6
 ---
 

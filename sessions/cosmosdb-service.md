@@ -4,7 +4,7 @@ page-category: session
 title: CosmosDB Service - One to rule them all
 speaker: Andreas Pollak
 speaker-id: andreas-pollak
-room: 'E09'
+room: '10.07'
 slot: 5
 ---
 

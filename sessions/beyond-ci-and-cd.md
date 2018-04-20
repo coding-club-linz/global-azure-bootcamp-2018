@@ -4,7 +4,7 @@ page-category: session
 title: Beyond CI und CD – wie man VSTS mit Azure und Ethereum erweitern kann
 speaker: Christian Müller
 speaker-id: christian-mueller
-room: '15.04'
+room: '15.05'
 slot: 6
 ---
 

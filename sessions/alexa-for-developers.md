@@ -4,7 +4,7 @@ page-category: session
 title: Alexa for Developers
 speaker: Martin Weber
 speaker-id: martin-weber
-room: '15.05'
+room: '15.04'
 slot: 5
 ---
 

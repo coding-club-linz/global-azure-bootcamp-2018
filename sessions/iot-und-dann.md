@@ -4,7 +4,7 @@ page-category: session
 title: IoT … und dann? – Analyse von IoT-Daten mit Stream Analytics und Time Series Insights
 speaker: Wilfried Mausz
 speaker-id: wilfried-mausz
-room: '10.07'
+room: '15.05'
 slot: 5
 ---
 

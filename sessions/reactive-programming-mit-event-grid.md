@@ -4,7 +4,7 @@ page-category: session
 title: Reactive Programming mit Event Grid
 speaker: Christoph Wille
 speaker-id: christoph-wille
-room: '10.07'
+room: '15.04'
 slot: 4
 ---
 
